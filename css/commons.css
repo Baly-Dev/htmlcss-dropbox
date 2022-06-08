@@ -1,0 +1,53 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* globals */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* positioning */
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.jc-btween{
+    justify-content: space-between;
+}
+
+.al-center{
+    align-items: center;
+}
+
+/* margin */
+
+/* padding */
+
+
+/* buttons */
+.btn{
+    border: 1px solid #0061FF;
+    background-color: #0061FF;
+}
+
+.btn-small{
+    padding: 3% 8%;
+}
+
+.btn-medium{
+    padding: 6% 12%;
+}
