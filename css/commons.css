@@ -10,6 +10,15 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+/* sizing */
+.w-100{
+    width: 100%;
+}
+
 /* positioning */
 .col{
     display: flex;
@@ -25,29 +34,53 @@ body{
     flex-wrap: wrap;
 }
 
-.jc-btween{
+.jc-center{
+    justify-content: center;
+}
+
+.jc-between{
     justify-content: space-between;
 }
 
+.jc-end{
+    justify-content: flex-end;
+}
+
+.jc-start{
+    justify-content: flex-start;
+}
 .al-center{
     align-items: center;
+}
+
+.gap-3{
+    gap: 3%;
+}
+.boxed{
+    max-width: 1200px;
+    margin: auto;
 }
 
 /* margin */
 
 /* padding */
 
-
 /* buttons */
 .btn{
     border: 1px solid #0061FF;
     background-color: #0061FF;
+    color: #fff;
 }
 
 .btn-small{
-    padding: 3% 8%;
+    padding: 6px 12px;
 }
 
 .btn-medium{
     padding: 6% 12%;
+}
+
+.btn:hover{
+    background-color: #0054DC;
+    border-color: #0054DC;
 }

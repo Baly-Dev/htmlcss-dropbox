@@ -1,0 +1,15 @@
+.debug header, .debug main{
+    border: 4px solid fuchsia;
+}
+
+.debug nav{
+    border: 4px solid yellow;
+}
+
+.debug nav > .row{
+    border: 4px solid violet;
+}
+
+.debug nav .col{
+    border: 4px solid black;
+}
