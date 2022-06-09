@@ -26,3 +26,46 @@ header nav li.nav-link a{
     text-decoration: none;
     color: #2f2f2f;
 }
+
+/* main */
+.first-section{
+    background-color: #B4D0E7;
+    padding: 0% 3%;
+    position: relative;
+    height: 650px;
+}
+
+.first-section h1{
+    font-size: 4em;
+    margin-bottom: 4%;
+}
+
+.first-section p{
+    font-size: 1.25em;
+    line-height: 1.3em;
+    color: #393939;
+}
+
+.first-section small{
+    font-size: .8em;
+    color: #393939;
+}
+
+.first-section img{
+    width: 100%;
+}
+
+.first-section .ri-arrow-down-line{
+    position: absolute;
+    bottom: 20px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.first-section .slice{
+    padding-top: 6%;
+}
+
+.second-section{
+    padding: 6% 0%;
+}

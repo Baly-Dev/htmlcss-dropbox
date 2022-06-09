@@ -2,7 +2,7 @@
     border: 4px solid fuchsia;
 }
 
-.debug nav{
+.debug nav, .debug section{
     border: 4px solid yellow;
 }
 
@@ -10,6 +10,6 @@
     border: 4px solid violet;
 }
 
-.debug nav .col{
+.debug .col{
     border: 4px solid black;
 }

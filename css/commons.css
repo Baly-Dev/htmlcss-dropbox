@@ -19,6 +19,19 @@ a{
     width: 100%;
 }
 
+.w-60{
+    width: 60%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+
 /* positioning */
 .col{
     display: flex;
@@ -56,20 +69,34 @@ a{
 .gap-3{
     gap: 3%;
 }
+
 .boxed{
     max-width: 1200px;
     margin: auto;
 }
 
+.boxed-2{
+    max-width: 1000px;
+    margin: auto;
+}
+
 /* margin */
+.mb-5{
+    margin-bottom: 5%;
+}
 
 /* padding */
+.pr-2{
+    padding-right: 2%;
+}
 
 /* buttons */
 .btn{
     border: 1px solid #0061FF;
     background-color: #0061FF;
     color: #fff;
+    text-align: center;
+    max-width: 250px;
 }
 
 .btn-small{
@@ -77,10 +104,11 @@ a{
 }
 
 .btn-medium{
-    padding: 6% 12%;
+    padding: 10px 14px;
 }
 
 .btn:hover{
     background-color: #0054DC;
     border-color: #0054DC;
 }
+
