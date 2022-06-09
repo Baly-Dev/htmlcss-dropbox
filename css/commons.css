@@ -31,6 +31,10 @@ a{
     width: 40%;
 }
 
+.w-20{
+    width: 20%;
+}
+
 
 /* positioning */
 .col{
@@ -80,9 +84,37 @@ a{
     margin: auto;
 }
 
+.text-right{
+    text-align: right;
+}
+
 /* margin */
 .mb-5{
     margin-bottom: 5%;
+}
+
+.mb-8{
+    margin-bottom: 8%;
+}
+
+.mb-12{
+    margin-bottom: 12%;
+}
+
+.mt-15{
+    margin-top: 15%;
+}
+
+.mt-5{
+    margin-top: 5%;
+}
+
+.mr-5{
+    margin-right: 5%;
+}
+
+.mr-2{
+    margin-right: 10px;
 }
 
 /* padding */
@@ -94,17 +126,22 @@ a{
 .btn{
     border: 1px solid #0061FF;
     background-color: #0061FF;
-    color: #fff;
     text-align: center;
-    max-width: 250px;
+    cursor: pointer;
+}
+
+.btn a{
+    color: #fff;
 }
 
 .btn-small{
-    padding: 6px 12px;
+    min-height: 30px;
+    padding: 0px 10px;
 }
 
 .btn-medium{
-    padding: 10px 14px;
+    min-height: 40px;
+    padding: 0px 15px;
 }
 
 .btn:hover{
@@ -112,3 +149,24 @@ a{
     border-color: #0054DC;
 }
 
+/* tipography */
+
+.text-normal{
+    color: #393939;;
+}
+
+.text-light{
+    color: #949494;
+}
+
+.text-primary{
+    color: #0061FF;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.fw-6{
+    font-weight: 600;
+}
